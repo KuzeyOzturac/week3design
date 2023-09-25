@@ -1,6 +1,6 @@
 # week3design
 ## description
-We are thinking of developing an application that tracks the latitude and longtitude locations of TTC non-subway vehicles.
+We are thinking of developing an application that tracks the latitude and longitude locations of TTC non-subway vehicles.
 A brief high level...
 ## screenshot
 screenshot of using a tool to try out the API
