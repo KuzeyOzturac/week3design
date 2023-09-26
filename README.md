@@ -14,9 +14,9 @@ We asked the API for a list of all vehicle locations that were part of route 510
 <img width="1506" alt="screenshotpostman" src="https://github.com/KuzeyOzturac/week3design/assets/69856672/01cb396e-b4b6-4fdb-97a4-fea77b3716bf">
 
 ## Java Code
-Our example Java code can be found at [./src/Main.java](./src/Main.java). Our example sends a `GET` request to our API, asking for a list of all TTC vehicles that follow route 510. It then converts the response into an XML DOM, and prints each vehicle id and its respective location as latitude and longitude. Because the API tracks TTC live updates, each instance of running our code will produce a unique result, and therefore our example output below may be different from other instances.
+Our example Java code can be found at [./src/Main.java](./src/Main.java). Our example sends a `GET` request to our API, asking for a list of all TTC vehicles that follow route 510. It then converts the response into an XML DOM, and prints each vehicle id and respective location as latitude and longitude. Because the API tracks TTC live updates, each instance of our program will produce a unique result, and therefore our example output below may be different from other instances.
 
-Example output of our code run at 12:31 AM on 26 Sept, 2023:
+Example output of our program run at 12:31 AM on 26 Sept, 2023:
 
 ```
 TTC Route 510 Vehicle Locations
@@ -44,4 +44,4 @@ TTC Route 510 Vehicle Locations
 ```
 
 ## Technical Problems
-As of right now, none.
+None as of right now.
